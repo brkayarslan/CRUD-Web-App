@@ -53,7 +53,7 @@ olarak sayfada güncelleyebilir.
 | ********       
 | **********
 
-'''java
+```java  
 
    int j = 0;   
    for(int i = 0; i<=5;i++){
@@ -64,7 +64,8 @@ olarak sayfada güncelleyebilir.
             }while( j<i*2);
             System.out.println();
         }
-'''
+```
+
 ## 5- Firmada çalışman için sana remote bir linux server verildi. Elinde ip adresi port bilgisi kullanıcı adi ve şifren var. Server a erişimi nasıl test edersin, Server a nasıl erişirsin, Server a nasıl dosya atarsın, Serverdan nasıl dosya çekersin.
 
 Server'a erişim testi yapmak için, öncelikle terminal üzerinde aşağıdaki komutu kullanarak server'a ssh bağlantısı kurarım:
