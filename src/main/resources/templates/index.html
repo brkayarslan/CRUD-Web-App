@@ -68,8 +68,8 @@
               <tbody>
                 <tr th:each="company : ${listCompanies}">
                     <td th:text="${company.id}"></td>
-                    <td th:text="${company.sector}"></td>
                     <td th:text="${company.companyName}"></td>
+                    <td th:text="${company.sector}"></td>
                     <td th:text="${company.employeesNumber}"></td>
                     <td th:text="${company.averageSalary}"></td>
                     <td> <a th:href="@{/showFormForUpdateCompany/{id}(id=${company.id})}" class="text-decoration-none">
